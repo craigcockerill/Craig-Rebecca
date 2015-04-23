@@ -1,3 +1,153 @@
+.wf-loading h1, .logo span, .menu li a {
+    visibility: hidden;
+    font-family: "ff-enzo-web";
+}
+
+.wf-active h1, .logo span, .menu li a {
+    visibility: visible;
+}
+
 .nav-1.scrolled {
     border-bottom: 1px solid rgba(193, 193, 195, .75);
+}
+
+.line-1, .line-2, .line-3 {
+    width: 25px;
+}
+
+/*Header/Hero*/
+
+#hero-name {
+    font-family: "ff-enzo-web";
+    font-weight: 600;
+    border: 8px solid #ffffff;
+    display: inline-block;
+    padding: 30px 20px;
+    font-size: 72px;
+
+    transition:         all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition:    all .2s;
+}
+
+.hero-date {
+    font-size: 24px;
+}
+
+.logo span {
+    font-family: "ff-enzo-web";
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+
+/*Main Nav*/
+
+.menu li a {
+    font-family: "ff-enzo-web";
+}
+
+@media all and (max-width: 698px) {
+
+    #hero-name {
+        font-size: 48px;
+        padding: 15px;
+        border-width: 5px;
+    }
+}
+
+/*Scaffolding*/
+
+section {
+    padding: 96px auto;
+}
+
+
+/*Typography*/
+
+.invite-head {
+    font-family: "kepler-std-display", serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 24px 0;
+    display: block;
+}
+
+.invite-name {
+    font-family: "ff-enzo-web", sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+}
+
+.invite-amp {
+    font-family: "kepler-std-display", serif;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 12px 0;
+    display: block;
+}
+
+
+@media all and (max-width: 430px) {
+    .invite-name {
+        font-size: 36px;
+    }
+
+    .invite-amp {
+        font-size: 32px;
+        margin: 10px 0;
+    }
+}
+
+@media all and (max-width: 330px) {
+    .invite-name {
+        font-size: 32px;
+    }
+
+    .invite-amp {
+        font-size: 30px;
+        margin: 8px 0;
+    }
+}
+
+
+
+/*Media Queries*/
+
+@media all and (max-width: 502px) {
+
+    #hero-name {
+        font-size: 36px;
+        line-height: 48px;
+        padding: 15px;
+        border-width: 3px;
+    }
+
+    .header h6 {
+        font-size: 14px;
+    }
+
+    .hero-date {
+        font-size: 18px;
+    }
+}
+
+
+
+@media all and (max-width: 403px) {
+
+    #hero-name {
+        font-size: 24px;
+        line-height: 36px;
+        padding: 15px;
+        border-width: 2px;
+    }
+
 }

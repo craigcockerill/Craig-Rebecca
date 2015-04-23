@@ -4,6 +4,17 @@
         <meta charset="utf-8">
         <title>Union - HTML Wedding Template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+				<script>
+				  (function(d) {
+				    var config = {
+				      kitId: 'npg3mbz',
+				      scriptTimeout: 3000
+				    },
+				    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+				  })(document);
+				</script>
+
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
@@ -22,7 +33,21 @@
 					<span>Craig &amp; Rebecca</span>
 				</a>
 				<ul class="menu">
-					<li><a href="#home" class="inner-link" target="default">home</a></li><li><a href="#story" class="inner-link" target="default">our story</a></li><li><a href="#wedding" class="inner-link" target="default">wedding</a></li><li><a href="#accomm" class="inner-link" target="default">accomm</a></li><li><a href="#registry" class="inner-link" target="default">registry</a></li><li><a href="#rsvp" class="inner-link" target="default">rsvp</a></li>
+					<li>
+            <a href="#home" class="inner-link" target="default">Home</a>
+          </li>
+          <li>
+            <a href="#story" class="inner-link" target="default">Our Story</a>
+          </li>
+          <li>
+            <a href="#wedding" class="inner-link" target="default">Venue</a>
+          </li>
+          <li>
+            <a href="#accomm" class="inner-link" target="default">Accommodations</a>
+          </li>
+          <li>
+            <a href="#registry" class="inner-link" target="default">Registry</a>
+          </li>
 				</ul>
 				<div class="mobile-toggle">
 					<div class="line-1"></div>
@@ -45,8 +70,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="text-center col-sm-12">
-							<h1>SAM &amp; AISHA</h1>
-							<h6>August 6th - Flinders Ranges, Victoria</h6>
+							<h1 id="hero-name">Craig &amp; Rebecca</h1>
+							<h6 class="hero-date">May 23rd &mdash; Ann Arbor, Michigan</h6>
 						</div>
 					</div>
 				</div>
@@ -58,29 +83,34 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-							<h2>Join Sam &amp; Aisha on the 6th of August to celebrate their union.</h2>
-							<h6>A little about the bride and groom.</h6>
+							<h6>Our Story</h6>
 						</div>
 					</div>
 
 					<div class="row">
 						<div class="col-md-4 col-md-offset-2 col-sm-6 feature">
 							<img alt="Photo" src="img/tall1.jpg">
-							<p>
-								You have been my best friend, mentor, playmate, confidant, and my greatest challenge. But most importantly, you are the love of my life and you make me happier than I could ever imagine and more loved than I ever thought possible.
-							</p>
 						</div>
-
 						<div class="col-md-4 col-sm-6 feature">
 							<img alt="Photo" src="img/tall2.jpg">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
 							<p>
-								I love you for your beauty, your intelligence, your kindness… and for the way you always know how to make me feel so special. So on top of all the other vows that I will make to you on our wedding day, I also vow to always appreciate how lucky I am.
+								We met three years ago &mdash; at this point we're comfortable admitting that it was&hellip; online. While maybe not the most conventional, our relationship never needed to be. We talked online for weeks before finally meeting &mdash; we can both recount the evening before we met. Hoping the conversation still exists in person, the nervousness, the waiting. But we also remember how natural the connection felt, and that on our respective drives home we shared the same thought that this was a night that would likely define the rest of our lives.
+							</p>
+							<p>
+								Since then we've gone through countless career changes, a slew of vet visits, four apartments, and one cross country move. After taking an incredible job opportunity, we packed the Corolla with our two cats and as much as we could fit, sold the rest, and headed to California. We've lived in Palo Alto and more recently moved to Berkeley after Craig took a job opportunity in San Francisco.
+							</p>
+							<p>
+								For us, our wedding day represents a lot of things. It is a ritual of creating a more formal union between each other and our family, it is a long time coming, it is something that we made our minds up about a long time ago, and it is something that we cannot wait for. And importantly we hope to see you there.
 							</p>
 						</div>
 					</div>
 				</div>
 			</section>
-
+<a id="wedding" class="in-page-link"></a>
 			<section class="details details-2 overlay parallax">
 				<div class="background-image-holder">
 					<img alt="Background image" class="background-image" src="img/hero2.jpg">
@@ -88,22 +118,26 @@
 
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-12 text-center">
-							<h1>SAVE THE DATE</h1>
-							<h4>Saturday August 6th - Bucks &amp; Hens details to follow.</h4>
+						<div class="col-md-6 col-md-offset-3 text-center">
+<span class="invite-head">Together with family</span>
+<span class="invite-name">Craig Cockerill</span>
+ <span class="invite-amp">&amp;</span>
+<span class="invite-name">Rebecca Kresnak</span>
+<span class="invite-head">request your presence <br>
+	on their wedding day</span>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<a id="wedding" class="in-page-link"></a>
+
 
 			<section class="details details-3">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
 							<p>
-								I guess you could call this a typical "boy meets girl in bar" story but with a twist!  Boy buys girl a drink, girl gives boy phone number. Two months and several thousand kilometers later and said boy and girl are head over heels for each other. Fast forward to today and we're settling down in our first home ready to tie the knot.
+								Hosted by David and Doreen Kresnak, both the ceremony and reception will take place at the <a href="http://www.umma.umich.edu/" target="_blank">University of Michigan Museum of Art</a> (UMMA) in Ann Arbor.
 							</p>
 						</div>
 					</div>
@@ -230,9 +264,7 @@
 					</div>
 				</div>
 			</section>
-
 			<a id="rsvp" class="in-page-link"></a>
-
 			<section class="rsvp rsvp-2">
 				<div class="container">
 					<div class="row">
@@ -243,7 +275,6 @@
 							</p>
 						</div>
 					</div>
-
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<div class="form-wrapper">
@@ -315,7 +346,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h6>© Copyright 2015 Medium Rare - All Rights Reserved</h6>
+							<h6>&copy;2015 Cockerill &mdash; All Rights Reserved</h6>
 						</div>
 					</div>
 				</div>
