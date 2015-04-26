@@ -542,7 +542,7 @@ nav.transparent {
   top: 0;
   width: 100%;
   z-index: 99;
-  background: none;
+  background: #fff;
 }
 nav.transparent .menu li {
   opacity: .7;
