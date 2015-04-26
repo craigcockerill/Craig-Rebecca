@@ -124,7 +124,7 @@ ul {
 }
 /*!---------- SECTIONS ----------*/
 section {
-  padding: 120px 0;
+  padding: 96px 0;
   background: #fff;
   overflow: hidden;
   position: relative;
@@ -725,13 +725,17 @@ nav.light.scrolled .line-3 {
 }
 /*!---------- STORY ----------*/
 
+.story-1 {
+  padding-top: 45px;
+}
+
 .story-1 .feature {
   margin-bottom: 48px;
 }
 .story-1 h2 {
   margin-bottom: 20px;
 }
-.story-1 h6 {
+h6 {
   margin-bottom: 60px;
   color: #172d4b;
 }
@@ -1117,27 +1121,11 @@ nav.light.scrolled .line-3 {
   display: inline-block;
   margin-bottom: 30px;
 }
-.accom-2 h6 {
-  color: #172d4b;
-  margin-bottom: 15px;
-}
 /*!---------- REGISTRY ----------*/
 .registry-1 h2 {
   margin-bottom: 120px;
 }
-.registry-1 a {
-  height: 40px;
-  display: block;
-  line-height: 40px;
-  margin-bottom: 60px;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  opacity: .5;
-}
-.registry-1 a:hover {
-  opacity: 1;
-}
+
 .registry-1 img {
   max-width: 225px;
   display: inline-block;
