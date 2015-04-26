@@ -77,6 +77,18 @@ ul {
   -ms-user-select: none;
   user-select: none;
 }
+.fullscreen.overlay:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: none;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  border: 55px solid #fff;
+}
 .overlay:before {
   position: absolute;
   content: '';
@@ -337,9 +349,7 @@ a:active {
   border-color: #172d4b;
 }
 /*!---------- COLOURS ----------*/
-.bg-secondary {
-  background: #fcfcfc;
-}
+
 /*!---------- COVERED BACKGROUNDS ----------*/
 .background-image-holder {
   position: absolute;
@@ -391,13 +401,14 @@ nav {
   -moz-transition: all 0.3s ease;
 }
 .nav-1 {
-  height: 60px;
-  max-height: 60px;
+  height: 55px;
+  max-height: 55px;
   padding: 15px 30px;
   background: #fff;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
+  border-bottom: 1px solid rgba(46, 45, 46, 0.0);
 }
 .nav-1 img {
   max-height: 20px;
@@ -492,7 +503,7 @@ nav {
   cursor: pointer;
   position: absolute;
   right: 15px;
-  top: 22px;
+  top: 20px;
   display: none;
 }
 .line-1,
@@ -513,6 +524,9 @@ nav {
   opacity: 1;
 }
 @media all and (max-width: 768px) {
+  .fullscreen.overlay:before {
+    border-width: 10px;
+  }
   .mobile-toggle {
     display: block;
   }
@@ -540,7 +554,7 @@ nav.transparent.light.scrolled {
   background: #fff;
 }
 nav.transparent.light.scrolled .menu li a {
-  color: #222;
+  color: rgba(46, 45, 46, 1);
 }
 nav.transparent.light.scrolled span {
   color: #222;
@@ -549,11 +563,7 @@ nav.light .menu li a,
 nav.light span {
   color: #fff;
 }
-nav.light .line-1,
-nav.light .line-2,
-nav.light .line-3 {
-  background: #fff;
-}
+
 nav.light.scrolled .line-1,
 nav.light.scrolled .line-2,
 nav.light.scrolled .line-3 {
